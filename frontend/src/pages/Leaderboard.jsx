@@ -23,7 +23,7 @@ const Leaderboard = () => {
             try {
                 // Not sending a token because leaderboards are often public, 
                 // but we can if we want to secure it. Right now our backend route is fully open.
-                const res = await axios.get('http://localhost:5001/api/leaderboard');
+                const res = await axios.get(`${import.meta.env.VITE_API_URL}/api/leaderboard`);
                 setLeaderboard(res.data);
             } catch (error) {
                 console.error("Failed to fetch leaderboard", error);

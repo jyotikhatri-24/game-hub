@@ -31,7 +31,7 @@ const Dashboard = () => {
                 const token = localStorage.getItem('token');
                 if (!token) return;
                 try {
-                    const res = await axios.get('http://localhost:5001/api/history', {
+                    const res = await axios.get(`${import.meta.env.VITE_API_URL}/api/history`, {
                         headers: { Authorization: `Bearer ${token}` }
                     });
                     setGameHistory(res.data);
@@ -44,7 +44,7 @@ const Dashboard = () => {
 
             const fetchGlobalRecent = async () => {
                 try {
-                    const res = await axios.get('http://localhost:5001/api/history/recent');
+                    const res = await axios.get(`${import.meta.env.VITE_API_URL}/api/history/recent`);
                     setGlobalRecentMatches(res.data);
                 } catch (error) {
                     console.error("Failed to fetch global history", error);
