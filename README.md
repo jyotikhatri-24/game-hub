@@ -1,8 +1,7 @@
 # Game Hub: Scalable Multiplayer Gaming Platform
 
 🔗 Live Demo: https://game-hub-mauve-two.vercel.app/ 
-⚙️ Backend API: https://dashboard.render.com/web/srv-d6oqf5ngi27c739ilc4g 
-
+⚙️ Backend API: https://game-hub-9smt.onrender.com
 
 A production-ready multiplayer gaming hub built for real-time interaction and global competition.
 
