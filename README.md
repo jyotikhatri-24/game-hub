@@ -1,6 +1,6 @@
 # Game Hub: Scalable Multiplayer Gaming Platform
 
-🔗 Live Demo: https://nutriwise-web.vercel.app  
+🔗 Live Demo: https://game-hub-mauve-two.vercel.app/ 
 ⚙️ Backend API: https://nutriwise-backend.onrender.com  
 
 
