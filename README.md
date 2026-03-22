@@ -19,7 +19,7 @@ A production-ready multiplayer gaming hub built for real-time interaction and gl
 - **Robust Reconnection Logic** with a 30-second grace period for disconnected players.
 - **API Rate Limiting** implemented using `express-rate-limit` with Redis-backed storage.
 - **Redis Caching Layer** for leaderboards and frequently accessed APIs.
-- **Secure Authentication** using JWT with password hashing via Bcrypt.
+- **Secure Authentication** using JWT with password hashing via Bcrypt
 
 ## 🛠️ Tech Stack
 
